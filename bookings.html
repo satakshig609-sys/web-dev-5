@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            text-align: center;
+            background-image: url(/form\ background.jpg);
+            background-size: cover;
+
+
+        }
+        h1{
+            color: #1b3c53;
+        }
+
+        #Yourdetails{
+            height: 800px;
+            width: 500px;
+            background-color: #e3e3e3;
+            border: 1px solid black;
+            margin-left: 500px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Yourdetails">
+        <form action="" >
+            <h1>Fill the form....</h1>
+            <label>
+                Name: <input type="text" name="Name" placeholder="Enter Your Full Name" />
+            </label>
+            <br>
+            <label>
+                Email: <input type="email" Name="Email" placeholder="Enter Your Email Address" />
+            </label>
+            <br>
+            <label>
+                 Password: <input type="password" placeholder="Enter Your Password" />
+            </label>
+        <br>
+    
+
+        <h2>Gender:</h2>
+        <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="Female">Female
+
+        <h2>Select Number of People:</h2>
+        <div><input type="checkbox" name="number of people" value="one">1 
+            <br>
+            <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        
+        </div> 
+        <br>
+         <div><input type="checkbox" name="number of people" value="two">2
+            <br>
+            <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="Female">Female
+            
+        </div>
+         <br>
+        <div><input type="checkbox" name="number of people" value="three">3 
+            <br>
+            <input type="radio" name="Gender" value="male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        
+        </div>
+        <br>
+        <input type="checkbox" name="number of people" value="more">More <br>
+
+
+        <h2>Select the subject:</h2>
+        <select name="Destination">
+            <option>Default</option>
+            <option value="paris">Paris</option>
+            <option value="bali">Bali</option>
+            <option value="new York">New York</option>
+            <option value="Malidives">Malidives</option>
+        </select> 
+        <br>
+        <br>
+        <button>Sumbit</button>
+        <br>
+        <br>
+        <a href="/index.html">Back to Home Page.</a>
+    </form>
+    </div>
+</body>
+
+</html>

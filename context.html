@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+            @keyframes fadeIn{
+            form{opacity: 0;}
+            to{opacity: 1;}
+        }
+
+              @keyframes fadeIn{
+            form{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        .cont{
+            width: 400px;
+            height: 400px;
+            margin-top: 50px;
+            margin-left: 500px;
+            /* background-color: rgb(10, 10, 137); */
+            animation-name: fadeIn;
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-iteration-count: 5;
+            animation-fill-mode: backwards;
+
+            animation-direction: alternate;
+            animation-play-state: running
+            
+        }
+
+        .cont1{
+            text-align: center;
+        }
+
+        body{
+            background-image: url(contect.jpg);
+            background-size: cover;
+        }
+
+
+        a{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont1">
+    <h1>Details</h1>
+    <p>
+        Name: Satakshi Gupta
+        <br>
+        Email: satakshig609@gmail.com
+        <br>
+        Contact: 7893541749
+    </p>
+    </div>
+    <div class="cont">
+    <img src="Horizon Travel Agency Logo.png" alt="">
+    </div>
+
+    <br>
+    <div>
+        <a href="index.html">back to home Page</a>
+    </div>
+</body>
+</html>
